@@ -15,10 +15,10 @@ engine = pyttsx3.init()
 engine.setProperty('rate', 180)
 
 # News API key
-newsapi = "4186bdbfef154b628cc0978496e1cbc8"
+newsapi = "API_KEY"
 
 # Initialize Cohere
-co = cohere.Client("1zBCvuhGnrdz0OvL7kCQK0DPN156z621652ODk2O")
+co = cohere.Client("API_KEY")
 
 # Initialize pygame mixer
 pygame.mixer.init()
